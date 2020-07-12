@@ -107,6 +107,9 @@ hi TabLineSel   guifg=WHITE guibg=NONE gui=none
 hi VertSplit none
 hi SignColumn none
 
+" Remove tils
+hi NonText guifg=#000000
+
 " I like my comments in italic.
 hi Comment cterm=italic gui=italic
 
