@@ -1,13 +1,3 @@
-" ArchMan v 0.0.1a
-"
-" https://github.com/atahabaki/archman-vim
-"
-" Copyright 2020, All rights reserved
-"
-" Code licensed under the MIT license
-"
-" @author A. Taha Baki <@atahabaki>
-
 set background=dark
 highlight clear
 
@@ -15,10 +5,10 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "archman"
+let g:colors_name = "fargerik"
 
 hi Cursor ctermfg=24 ctermbg=231 cterm=NONE guifg=#7F4EFE guibg=#ffffff gui=NONE
-hi Visual ctermfg=NONE ctermbg=241 cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi Visual ctermfg=NONE ctermbg=241 cterm=NONE guifg=NONE guibg=#3d3f49 gui=NONE
 hi CursorLine ctermbg=234 cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi CursorColumn ctermbg=234 cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#3d3f49 gui=NONE

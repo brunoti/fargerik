@@ -1,11 +1,6 @@
-# ArchMan
+# Fargerik
 
-A pretty cool Vim theme.
+> Dette er lyst og fargerikt. Nyt!  
+> - <small>***Someone said something and translated to Norwegian***</small>
 
-## Installation
-
-It's easy! Just move the **colors** folder into **$HOME/.vim/**.
-
-## Notice
-
-This works better with konsole's blur feature. Enjoy!..
+A pretty cool Vim theme. Based on [archman](https://github.com/atahabaki/archman-vim).
