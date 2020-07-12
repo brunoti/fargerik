@@ -13,7 +13,6 @@ hi CursorLine ctermbg=234 cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi CursorColumn ctermbg=234 cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#3d3f49 gui=NONE
 hi LineNr ctermfg=234 ctermbg=NONE cterm=NONE guifg=#76A9DB guibg=NONE gui=NONE
-hi VertSplit ctermfg=234 ctermbg=0 cterm=bold guifg=#3c464f guibg=NONE gui=bold
 hi MatchParen ctermfg=96 ctermbg=NONE cterm=underline guifg=#FF4143 guibg=NONE gui=underline
 hi StatusLine ctermfg=231 ctermbg=236 cterm=bold guifg=#FFFFFF guibg=#64666d gui=bold
 hi StatusLineNC ctermfg=231 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#64666d gui=NONE
@@ -23,7 +22,6 @@ hi IncSearch ctermfg=24 ctermbg=178 cterm=NONE guifg=NONE guibg=#FFCC4B gui=NONE
 hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 hi Directory ctermfg=56 ctermbg=NONE cterm=NONE guifg=#7F4EFE guibg=NONE gui=NONE
 hi Folded ctermfg=24 ctermbg=235 cterm=NONE guifg=#7F4EFE guibg=NONE gui=NONE
-hi SignColumn ctermfg=246 ctermbg=235 cterm=NONE guifg=#909194 guibg=NONE gui=NONE
 hi FoldColmun ctermfg=246 ctermbg=235 cterm=NONE guifg=#909194 guibg=NONE gui=NONE
 hi Normal guifg=#FFFFFF guibg=NONE gui=NONE
 hi Boolean ctermfg=56 ctermbg=NONE cterm=NONE guifg=#7F4EFE guibg=NONE gui=NONE
@@ -106,6 +104,11 @@ hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi TabLineFill  guifg=#333333 guibg=NONE gui=none
 hi TabLine      guifg=#666666 guibg=NONE gui=none
 hi TabLineSel   guifg=WHITE guibg=NONE gui=none
+hi VertSplit none
+hi SignColumn none
+
+" I like my comments in italic.
+hi Comment cterm=italic gui=italic
 
 " Elixir {{{
 hi elixirAtom ctermfg=37 ctermbg=NONE cterm=NONE guifg=#3DE163 guibg=NONE gui=italic"
